@@ -32,4 +32,6 @@ for last in range(0, string.__len__()):
     else:
         break;
 
+
+
 print(string)
