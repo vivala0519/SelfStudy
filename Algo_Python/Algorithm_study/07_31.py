@@ -1,16 +1,17 @@
 def check_vin(number):
-    number = number.upper()
-    first_number = number
+    number = number.upper()  # 소문자 처리를 위해 대문자화 시켜준다
+    first_number = number  # 처음 문자열을 담아 두기 위한 변수
+    # 유효성 검사
     res = input_validation(number)
     if res == 'true':
         pass
     else:
         return False
-    number = cal(number)
-    arr = second_cal(number)
-    sum = third_cal(arr)
-    mod = fourth_cal(sum)
-    res = fifth_cal(mod, first_number)
+    number = cal(number)    # 1번 처리 함수
+    arr = second_cal(number)    # 2번 처리 함수
+    sum = third_cal(arr)    # 3번 처리 함수
+    mod = fourth_cal(sum)   # 4번 처리 함수
+    res = fifth_cal(mod, first_number)  #5번 처리 함수
     print(res)
     if res == 'true':
         return True
@@ -49,7 +50,7 @@ def fourth_cal(sum):
 
 def fifth_cal(mod, first_number):
     print('in fifth', mod)
-    if mod == 10:
+    if mod == 10:       # mod가 10일 경우
         mod = 'X'
         res = fifth_cal(mod, first_number)
         return res
@@ -62,7 +63,7 @@ def fifth_cal(mod, first_number):
             res = 'false'
             return res
     else:
-        if first_number[8].isdigit() != False:
+        if first_number[8].isdigit() != False:     # 9번째 문자가 숫자일 경우
             if int(first_number[8]) == mod:
                 print('true')
                 res = 'true'
@@ -77,7 +78,8 @@ def input_validation(number):
     print('in valid')
     first_number = number
     res = 'true'
-    for i in range(number.__len__()):  # I or O or Q 가 있거나 문자열이 17자가 아니면 return false
+    # I or O or Q 가 있거나 문자열이 17자가 아니면 return false
+    for i in range(number.__len__()):
         if first_number[i] == 'I':
             res = 'false'
             return res
