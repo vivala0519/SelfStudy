@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: codewars-test-teey
+Version: 0.1.0
+Summary: Codewars test framework for Python (fork)
+Home-page: https://github.com/teey-t/python-test-framework
+Author: Codewars
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Codewars Test Framework for Python
+
+## See also
+
+This is a fork from https://github.com/Codewars/python-test-framework
+
+## Example
+
+```python
+from solution import add
+import codewars_test as test
+
+@test.describe('Example Tests')
+def example_tests():
+    @test.it('Example Test Case')
+    def example_test_case():
+        test.assert_equals(add(1, 1), 2, 'Optional Message on Failure')
+```
+
+
