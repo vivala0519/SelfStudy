@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a81dc6-2fe7-4bae-93dc-efd089df47b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Algorithm_study/07_31.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm_study/07_31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,22 +14,22 @@
     <session id="-1692620264">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm_study/07_31.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="286">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithm_study/08_01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/Algorithm_study/07_28.py" />
         <option value="$PROJECT_DIR$/Algorithm_study/test.py" />
         <option value="$PROJECT_DIR$/Algorithm_study/07_31.py" />
+        <option value="$PROJECT_DIR$/Algorithm_study/08_01.py" />
       </list>
     </option>
   </component>
@@ -194,7 +204,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13643926" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13643926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,6 +222,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Algorithm_study/test.py" />
     <entry file="file://$PROJECT_DIR$/Algorithm_study/07_27.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -226,17 +237,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm_study/test.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm_study/07_31.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="9" lean-forward="true" selection-end-line="106" selection-end-column="65" />
+        <state relative-caret-position="286">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm_study/07_31.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm_study/08_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="182">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
