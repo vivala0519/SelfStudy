@@ -7,15 +7,6 @@ result = ''
 length = len(arr)
 print(arr[length-1])
 for i in range(0, len(arr)):
-    # if i == len(arr) - 1:
-    #     if arr[len(arr) - 1] == ' ':
-    #         print('hi')
-    #
-    #         pass
-    #     else:
-    #         result += arr[i].upper()
-    #         print('end')
-    # else:
     if arr[i] == ' ':
         pass
     else:
