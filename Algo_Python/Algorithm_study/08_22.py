@@ -30,16 +30,3 @@ again = []
 for i in mins:
     again.append(trans[i])
 answer = min(again)
-# print(dis.index(temp))
-# index = dis.index(temp)
-# print(trans[index])
-# for i in range(0, arr.__len__()):
-#     if arr[i] >= num:
-#         over += 1
-#     else:
-#         less += 1
-# print(abs(over - less))
-# print(min(arr_2))
-# print(min(arr_3))
-# loss = min(arr)
-# print(loss)
