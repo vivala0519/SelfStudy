@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a81dc6-2fe7-4bae-93dc-efd089df47b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm_study/08_30.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm_study/08_30_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
     <session id="-1692620264">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -23,47 +23,56 @@
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.5" value="9" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jsp" value="1" />
-          <entry key="py" value="29" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSP" value="1" />
-          <entry key="Python" value="29" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="jsp" value="654" />
-          <entry key="py" value="19791" />
+          <entry key="py" value="21173" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSP" value="654" />
-          <entry key="Python" value="19791" />
+          <entry key="Python" value="21173" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm_study/08_30.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1586">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithm_study/08_30_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -110,13 +119,14 @@
         <option value="$PROJECT_DIR$/Algorithm_study/08_28.py" />
         <option value="$PROJECT_DIR$/Algorithm_study/08_29.py" />
         <option value="$PROJECT_DIR$/Algorithm_study/08_30.py" />
+        <option value="$PROJECT_DIR$/Algorithm_study/08_30_2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="405" />
-    <option name="width" value="1532" />
-    <option name="height" value="1091" />
+    <option name="width" value="1533" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.08_30">
+  <component name="RunManager" selected="Python.08_30_2">
     <configuration name="08_27" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,27 +185,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_study/08_27.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="08_27_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algo_Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm_study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_study/08_27_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,20 +256,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="08_30_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algo_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_study/08_30_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.08_27" />
-      <item itemvalue="Python.08_27_2" />
       <item itemvalue="Python.08_28" />
       <item itemvalue="Python.08_29" />
       <item itemvalue="Python.08_30" />
+      <item itemvalue="Python.08_30_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.08_30_2" />
         <item itemvalue="Python.08_30" />
         <item itemvalue="Python.08_29" />
         <item itemvalue="Python.08_28" />
         <item itemvalue="Python.08_27" />
-        <item itemvalue="Python.08_27_2" />
       </list>
     </recent_temporary>
   </component>
@@ -298,15 +308,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="270" y="0" width="1021" height="727" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17784552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37099496" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36938435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,6 +502,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1586">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_study/08_30_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
