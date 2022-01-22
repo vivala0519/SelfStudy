@@ -19,4 +19,3 @@ for i in range(n-2):
             else:
                 continue
 print(max_num)
-
