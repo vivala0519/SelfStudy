@@ -1,36 +1,14 @@
 dirs = 'LULLLLLLU'
-stack = [(5, 5)]
-rows, cols = 11, 11
-grid = []
-for i in range(rows):
-    line = []
-    for j in range(cols):
-        line.append(0)
-    grid.append(line)
-grid[5][5] = 1
+command = {'U': (0, 1), 'D': (0, -1), 'R': (1, 0), 'L': (-1, 0)}
+x, y = (0, 0)
+road = set()
 cnt = 0
 
 for i in dirs:
-    x, y = stack.pop()
-    if i == 'U':
-        if y < 11:
-            y += 1
-    elif i == 'L':
-        if x > 0:
-            x -= 1
-        print(x, y)
-    elif i == 'R':
-        if x < 11:
-            x += 1
-    elif i == 'D':
-        if y > 0:
-            y -= 1
-
-    if grid[x][y] != 0:
-        pass
-    else:
-        grid[x][y] = 1
-        cnt += 1
-    stack.append((x, y))
-
-print(cnt)
+    next_x, next_y = x + command[i][0], y + command[i][1]
+    if -5 <= next_x <= 5 and -5 <= next_y <= 5:
+        road.add((x, y, next_x, next_y))
+        road.add((next_x, next_y, x, y))
+        print(road)
+        x, y = next_x, next_y
+print(len(road)//2)
