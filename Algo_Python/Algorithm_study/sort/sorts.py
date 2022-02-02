@@ -1,3 +1,6 @@
+from Algorithm_study.heap.structures import BinaryMaxHeap
+
+
 def bubblesort(lst):
     # 최댓값을 구하는 알고리즘을 len(lst) - 1 만큼 반복한다.
     iters = len(lst) - 1
@@ -95,3 +98,11 @@ def merge_sort(lst):
     L = lst[:mid]
     R = lst[mid:]
     return merge(merge_sort(L), merge_sort(R))
+
+def sorted_by_heap(lst):
+    maxheap = BinaryMaxHeap()
+    for elem in lst:
+        maxheap.insert(elem)
+    
+    desc = [maxheap.extract() for _ in range(len(lst))]
+    return list(reversed(desc))
