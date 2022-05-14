@@ -1,18 +1,21 @@
-from collections import defaultdict, deque
+import sys
 
-N = 3
-K = 9
-arr = deque([2, 1, 4, 3, 5, 6, 2, 7, 2])
-dic = defaultdict(int)
+N = int(sys.stdin.readline())
+vote = int(sys.stdin.readline())
+arr = list(map(int, sys.stdin.readline().split()))
 
-stack = deque([])
-while arr:
-    x = arr.popleft()
-    if len(stack) < N:
-        if x not in stack:
-            stack.append(x)
-        dic[x] += 1
+dic = {}
+
+for i in range(len(arr)):
+    if arr[i] in dic:
+        dic[arr[i]][0] += 1
     else:
-        temp = []
-        for i in stack:
-            temp.append(dic[i])
+        if len(dic) < N:
+            dic[arr[i]] = [1, i]
+        else:
+            temp = sorted(dic.items(), key=lambda x: (x[1][0], x[1][1]))
+            del(dic[temp[0][0]])
+            dic[arr[i]] = [1, i]
+
+dic = sorted(dic.keys())
+print(' '.join(str(i) for i in dic))
