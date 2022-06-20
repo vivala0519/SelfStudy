@@ -1,0 +1,13 @@
+import sys
+
+for _ in range(int(sys.stdin.readline())):
+    n = int(sys.stdin.readline())
+    start = sys.stdin.readline().rstrip()
+    des = sys.stdin.readline().rstrip()
+    answer = []
+    for i in range(len(start)):
+        if start[i] != des[i]:
+            answer.append(start[i])
+    b_cnt = answer.count('B')
+    w_cnt = answer.count('W')
+    print(abs(b_cnt - w_cnt) + min(b_cnt, w_cnt))
