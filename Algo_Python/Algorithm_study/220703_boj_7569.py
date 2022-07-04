@@ -2,7 +2,7 @@ from collections import deque
 import sys
 M, N, H = map(int, sys.stdin.readline().split())
 a = [[list(map(int, sys.stdin.readline().split())) for i in range(N)] for depth in range(H)]
-
+ 
 z = 1
 result = -1
 q = deque()
